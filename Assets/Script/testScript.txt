@@ -1,0 +1,11 @@
+﻿[Voice s=GenericVoice2][SpawnChar s=Chen s=chenNeutral v3=-11,0,9.3][CharMove i=0 v3=-6.45,0,9.3][BoxState i=1]It's a text parser that can read off of a text file, register commands from the \ntext, and [PointerMove v3=-4.2,4.2,-1]convert them into method calls with any number of parameters.
+[BoxState i=4] 
+[CharExpress i=0 s=chenThoughtful][BoxState i=2][PointerFlip b=false]With these commands, I can do stuff like [CamShakeOnce f=0.3]trigger camera shake, activate music\n, trigger sound [SFX s=PowerUp01]effects, change the voice soundbite…
+[CharExpress i=0 s=chenNeutral][BoxState i=2][SpawnVFXAt s=TestAnim v3=3,1,0]Play visual effects, [TalkSpeed f=0.035]change [TalkSpeed f=0.1]text [TalkSpeed f=0.023]speed[EndVFX i=0], [CharMove i=0 v3=0,0,9.3][PointerMove v3=-1.23,4.2,-1]control character movement…
+[CharExpress i=0 s=chenThoughtful][BoxState i=2][CharMove i=0 v3=-6,0,9.3][PointerMove v3=-5.5,4.2,-0.1]Perform visual fading[FadeTo f=0.03 c=0,0,0,0], delay text for a bit[Delay f=2][FadeFrom f=0.02 c=0,0,0,1], set flags and jump around the text\nfile based off of flag conditionals, etc.
+[CharExpress i=0 s=chenNeutral][BoxState i=2]It also <i>instantly</i> reads <color="red">rich text markup</color> into the text element, which <size=80%>allows</size> <sup>the</sup>\nuse of a <b>variety</b> of <u>text formatting</u> provided by Textmesh Pro.
+[CharExpress i=0 s=chenSmile][BoxState i=2]All of this can be made to happen in a text file, no programming required.
+[CharExpress i=0 s=chenSerious][BoxState i=2]However, I still need to add save data, scene setup, dialogue choices, and\nmenus, and it's far from feature complete or user-friendly.
+[CharExpress i=0 s=chenSly][BoxState i=2]Yes, this is a visual novel system.
+[CharExpress i=0 s=chenSerious2][BoxState i=2][CharMove i=0 v3=-6,0,9.3][PointerMove v3=0.278,0.37,-0.1]Also, uh...[Delay f=0.5]when you run out of lines to feed to the engine...
+[CharExpress i=0 s=chenUnamused][BoxState i=2][CharShakeOnce i=0 f=0.5]It kind of breaks.

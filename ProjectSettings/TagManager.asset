@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - DialogueText
+  - NameText
+  - HistoryText
+  - VFX
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 2613346341
+    locked: 0
+  - name: BackgroundVFX
+    uniqueID: 3956792253
+    locked: 0
+  - name: Characters
+    uniqueID: 254123907
+    locked: 0
+  - name: CharacterVFX
+    uniqueID: 2615490731
+    locked: 0
+  - name: DialogueBoxFill
+    uniqueID: 4085856827
+    locked: 0
+  - name: Dialogue
+    uniqueID: 3547528365
+    locked: 0
+  - name: DialogueVFX
+    uniqueID: 3131257685
+    locked: 0
