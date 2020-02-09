@@ -10,6 +10,7 @@
 
 Notes:
 
+- If you found this and you are not a member of Aurora Game Dev Club or another community I shared this to, this code was made by one student in a single winter break. Make of that what you will.
 - This repository is covered under the Mozilla Public License. Essentially, you can freely use, distribute, modify, and make derivative works that can be sold commercially, as long as the license is included with any use of the code/derivatives of the code and the source code used from this repository is made easily available (this is not legal advice, please read the full license)
 - Please credit me if you use anything from this repository. Feel free to use any included art assets.
 - I am building this system first and foremost for my own purposes, and not as a general tool for making visual novels. Thus, the scripts aren't very independent and you will have to rework them to fit your needs. I have done my best to organize functions in a way that's understandable, but comments are a bit sparse and there's probably a lot of organization that doesn't quite make sense.
